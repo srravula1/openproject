@@ -28,6 +28,8 @@
 #++
 
 class ProjectSettingsController < ApplicationController
+  helper_method :gon
+  
   menu_item :settings
 
   before_action :find_project
